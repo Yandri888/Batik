@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kontak Kami</h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="produk.html">Produk</a>
+      <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+
+    <!-- Kontak Section -->
+    <section class="kontak-container">
+      <h2>Hubungi Kami</h2>
+      <p>
+        Jika Anda memiliki pertanyaan, kritik, atau saran, silakan isi form
+        berikut atau hubungi kontak kami.
+      </p>
+
+      <div class="kontak-content">
+        <!-- Form -->
+        <form class="kontak-form">
+          <label for="nama">Nama:</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Masukkan nama Anda"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan email Anda"
+            required
+          />
+
+          <label for="pesan">Pesan:</label>
+          <textarea
+            id="pesan"
+            name="pesan"
+            rows="5"
+            placeholder="Tulis pesan Anda..."
+            required
+          ></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+
+        <!-- Info Kontak -->
+        <div class="kontak-info">
+          <h3>Alamat Kami</h3>
+          <p>Jl. Ijen No. 5, Kota Malang, Jawa Timur</p>
+
+          <h3>Email Kami</h3>
+          <p>batiknusantara@gmail.com</p>
+
+          <h3>Telepon</h3>
+          <p>+62 812-3456-7890</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Batik Nusantara | Semua Hak Dilindungi</p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.509870103965!2d112.635788!3d-7.929387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629f1b8a28299%3A0xa995c6171f4fe894!2sSMK%20Negeri%205%20Kota%20Malang!5e0!3m2!1sid!2sid!4v1695838530000!5m2!1sid!2sid"
+          width="100%"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
